@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minecraft — Character Encounter</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>MINECRAFT</h1>
+
+        <button id="btnTema" class="theme-button">
+            ☀ / ☾
+        </button>
+    </header>
+
+
+    <main>
+
+        <!-- ESCENA p5 -->
+        <section id="scene" class="scene">
+
+            <!-- La tarjeta estará encima del canvas -->
+            <article class="character-card">
+
+                <div class="character-image">
+                    <img id="characterImage" src="img/ghast.png" alt="Ghast de Minecraft">
+                </div>
+
+                <div class="character-info">
+
+                    <span id="characterCategory" class="category">
+                        NETHER
+                    </span>
+
+                    <h2 id="characterName">
+                        GHAST
+                    </h2>
+
+                    <p id="characterDescription" class="description">
+                        Una criatura flotante que habita en las profundidades
+                        del Nether.
+                    </p>
+
+                    <!-- Información adicional -->
+                    <div id="extraInfo" class="extra-info">
+
+                        <p>
+                            Este personaje pertenece al universo de Minecraft.
+                        </p>
+
+                        <p>
+                            Los Ghasts son criaturas hostiles capaces de
+                            lanzar bolas de fuego.
+                        </p>
+
+                    </div>
+
+                    <div class="buttons">
+
+                        <button id="btnInfo">
+                            VER INFORMACIÓN
+                        </button>
+
+                        <button id="btnCharacter">
+                            CAMBIAR PERSONAJE
+                        </button>
+
+                        <button id="btnTime">
+                            CAMBIAR HORA
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Creative Interactive Project</p>
+    </footer>
+
+
+    <!-- sources -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    
+    <!--mio -->
+
+
+
+    <script src="js/sketch.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
